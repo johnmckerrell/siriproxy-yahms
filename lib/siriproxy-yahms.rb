@@ -53,7 +53,7 @@ class SiriProxy::Plugin::YAHMS < SiriProxy::Plugin
     modify_input(@config["heating"],"off", "I've advanced the heating, I hope that helps!");
   end
 
-  listen_for /Turn the light (on|off)/i do |switch|
+  listen_for /Turn the lights? (on|off)/i do |switch|
     modify_input(@config["light"],switch, "The light will be #{switch.downcase} in a moment.")
   end
 
