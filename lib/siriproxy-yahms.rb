@@ -3,7 +3,7 @@ require 'siri_objects'
 require 'mechanize'
 
 #######
-# mapme.at plugin, checks people into mapme.at simply by sending them to a mapme.at url
+# yahms.net plugin, turns physical devices on and off
 # 
 # Remember to add other plugins to the "config.yml" file if you create them!
 ######
