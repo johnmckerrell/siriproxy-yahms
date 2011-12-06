@@ -1,5 +1,6 @@
 require 'cora'
 require 'siri_objects'
+require 'mechanize'
 
 #######
 # mapme.at plugin, checks people into mapme.at simply by sending them to a mapme.at url
